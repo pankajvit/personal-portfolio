@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+}
+.side-nav {
+    width: 20%;
+    float: left;
+    height: 100vh;
+    background-color: rgb(46, 41, 41);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.imageAndName {
+    margin: 50px 0px;
+}
+.developer_img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.nav-menu ul {
+    height: 210px;
+}
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu ul li {
+    list-style: none;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.twitter-profile {
+    padding: 5px;
+    background-color: lightseagreen;
+    margin: 15px 0px;
+}
+.twitter-profile span {
+    font-size: 12px;
+}
+.other-social-media-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-icon a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*main section style starts here */
+.main-section {
+    width: 80%;
+    float: right;
+}
+/*header style section starts here */
+.imgHeader {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.imgHeader{
+    background: url('../img/bg-1.jpg');
+    color: white;
+    position: relative;
+}
+.imgHeader > * {
+    position: relative;
+    margin: 15px 0px;
+    z-index: 2;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+.imgHeader::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1;
+}

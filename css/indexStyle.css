@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: 'Baloo Bhai 2', cursive; */
 }
 .side-nav {
     width: 20%;
@@ -34,6 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .nav-menu ul li {
     list-style: none;
@@ -101,10 +105,12 @@
 }
 
 
-/*my story style section starts here */
+/*main style section starts here */
 .main-content-section {
     padding: 0px 30px;
 }
+
+/*my story style section starts here */
 .my-story {
     display: flex;
     height: 500px;
@@ -128,10 +134,14 @@
     font-size: 20px;
     padding: 5px;
 }
+
+
+/*service story style section starts here */
 .service-story {
     display: flex;
     height: 180px;
     width: 100%;
+    margin-bottom: 50px;
 }
 .service-heading {
     width: 30%;
@@ -151,12 +161,21 @@
     font-size: 20px;
     padding: 5px;
 }
+
+
+
+/*service box section style starts here */
 .service-box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .content-box {
-    width: 20%;
+    width: 23%;
+    height: auto;
+    /* border: 2px solid black; */
+    padding: 5px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 .imgDescription {
     display: flex;
@@ -165,6 +184,10 @@
     align-items: center;
 }
 .imgDescription img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+}
+.imgDescription h5 {
+    font-size: 25px;
+    margin: 10px 0px;
 }
