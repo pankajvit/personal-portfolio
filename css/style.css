@@ -102,11 +102,54 @@
 
 
 /*my story style section starts here */
+.main-content-section {
+    padding: 0px 30px;
+}
 .my-story {
     display: flex;
+    height: 500px;
+    width: 100%;
+}
+.story-heading {
+    width: 30%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.story-paragraph{
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.story-paragraph p {
+    font-size: 20px;
+    padding: 5px;
 }
 .service-story {
     display: flex;
+    height: 180px;
+    width: 100%;
+}
+.service-heading {
+    width: 30%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service-paragraph {
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service-paragraph p {
+    font-size: 20px;
+    padding: 5px;
 }
 .service-box {
     display: flex;
