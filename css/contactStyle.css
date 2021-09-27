@@ -103,3 +103,34 @@
     background: rgba(0, 0, 0, .6);
     z-index: 1;
 }
+.contact-form {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20%;
+    /* border: 1px solid red; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.contact-form input {
+    width: 45%;
+    height: 40px;
+    margin: 15px 5px;
+    padding-left: 10px;
+}
+#inputBoxSubject {
+    width: 92%;
+}
+.contact-form h6,h1 {
+    text-align: center;
+}
+textarea {
+    width: 92%;
+    height: 200px;
+    margin: 15px 5px;
+}
+#submitbtn {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: salmon;
+    font-family: 'Baloo Bhai 2', cursive;
+}
